@@ -2,7 +2,7 @@
 -- PROJECT: E-Commerce Sales Data Cleaning
 -- TOOL: MySQL
 -- OBJECTIVE: Transform raw, inconsistent, and dirty e-commerce sales data into a 
---            structured, reliable dataset ready for production and analysis.
+-- structured, reliable dataset ready for production and analysis.
 -----------------------------------------------------------------------------------------
 
 -- ==========================================

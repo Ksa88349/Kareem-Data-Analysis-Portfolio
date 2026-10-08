@@ -77,7 +77,7 @@ The final stage will focus on extracting meaningful insights from the data rathe
 ## 📌 Current Progress
 
 * [x] Customer data cleaning
-* [ ] Cart data cleaning
+* [x] Cart data cleaning
 * [ ] Data Warehouse / Data Model
 * [ ] Exploratory Analysis
 * [ ] Power BI Dashboard

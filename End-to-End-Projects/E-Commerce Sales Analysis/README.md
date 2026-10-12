@@ -1,14 +1,18 @@
 # 🛒 E-Commerce Sales Analysis
 
-This project analyzes an e-commerce dataset through a complete data analysis workflow, starting from raw and inconsistent data and ending with a business-focused dashboard and insights.
+This project was started as part of my **30 Projects in 30 Days** challenge to practice a complete data analysis workflow using an e-commerce dataset.
 
-The project is being developed as part of my **30 Projects in 30 Days** challenge, with a focus on improving my ability to work with real-world data, identify data quality issues, make reasonable analytical decisions, and communicate findings clearly.
+During the initial data preparation stage, data quality and consistency issues were identified. Further investigation raised concerns about the reliability of the data and the relationships between the available tables.
+
+After assessing these issues, I decided to discontinue the project rather than proceed with analysis and business conclusions that could not be sufficiently supported by the available data.
+
+Although the project did not reach the dashboard or reporting stages, it provided practical experience in data quality assessment, data cleaning, validation, and documenting analytical decisions.
 
 ## 🎯 Project Objective
 
-The main objective is to transform the raw e-commerce data into a clean and structured dataset that can be used to understand customer behavior, shopping activity, and sales performance.
+The original objective was to prepare the raw e-commerce data for analyzing customer behavior, shopping activity, and sales performance.
 
-The project workflow includes:
+The planned workflow included:
 
 * Data quality assessment
 * Data cleaning and validation
@@ -19,29 +23,24 @@ The project workflow includes:
 * Power BI dashboard
 * Business insights and final reporting
 
+**Project outcome:** The project was discontinued during the data preparation stage because of data quality and consistency concerns that limited confidence in the dataset's suitability for reliable analysis.
+
 ## 📂 Project Structure
 
 ```text
-E-Commerce-Sales-Analysis/
+E-Commerce Sales Analysis/
 │
-├── Customer_Data/
-│   ├── customer_details.csv
-│   ├── customer_details_clean.csv
-│   ├── customer_cleaning.ipynb
-│   └── README.md
+├── 01_Customer_Data/
+│   └── Customer Cleaning/
+│       ├── E_Commerce_Customer_Cleaning_Final.ipynb
+│       └── customer_details_clean.csv
 │
-├── Cart_Data/
-│   ├── cart_details.csv
-│   ├── cart_details_clean.csv
-│   ├── cart_cleaning.ipynb
-│   └── README.md
-│
-├── Data_Warehouse/
-│
-├── Power_BI/
+├── 02_Cart_Data/
 │
 └── README.md
 ```
+
+*Note: The structure above reflects the customer data preparation work and the current project organization. Additional files may be added as the repository evolves.*
 
 ## 🛠️ Tools
 
@@ -49,41 +48,46 @@ E-Commerce-Sales-Analysis/
 * Pandas
 * NumPy
 * Google Colab
-* SQL / Data Warehouse
-* Power BI
 
-## 🔄 Project Workflow
+## 🔍 Work Completed
 
-### 1. Customer Data
+### Customer Data Quality Assessment and Cleaning
 
-The customer table is inspected and cleaned to identify issues such as duplicates, inconsistent categorical values, missing values, and unrealistic age values.
+The customer table was inspected to identify duplicates, inconsistent categorical values, missing values, and unrealistic age values.
 
-### 2. Cart Data
+The cleaning process included:
 
-The cart table will be analyzed and cleaned using the same data-quality approach, while documenting the reasoning behind each cleaning decision.
+* Inspecting the structure and quality of the dataset.
+* Identifying inconsistent categorical values.
+* Investigating unrealistic and invalid customer ages.
+* Developing a documented correction strategy using available data, while preserving the original age column.
+* Validating the resulting analytical age column.
+* Exporting the prepared customer dataset.
 
-### 3. Data Modeling
+### Reason for Discontinuation
 
-After cleaning both tables, the relationship between customer and cart data will be studied and a suitable data model will be created.
+During the initial investigation, concerns arose about the consistency and interpretability of the data, particularly the reliability of the available fields and the relationship between the tables.
 
-### 4. Analysis & Dashboard
+Because these concerns could affect subsequent analysis and business conclusions, I decided not to proceed with data modeling, dashboard development, or final business reporting without sufficient confidence in the underlying data.
 
-The cleaned and structured data will then be used for analysis and visualization in Power BI.
+The decision to discontinue the project was made to prioritize analytical reliability over completing a workflow using questionable data.
 
-### 5. Business Insights
+## 📌 Project Status
 
-The final stage will focus on extracting meaningful insights from the data rather than only presenting charts.
+**Status: Discontinued during data preparation.**
 
-## 📌 Current Progress
-
-* [x] Customer data cleaning
-* [x] Cart data cleaning
+* [x] Customer data quality assessment
+* [x] Customer data cleaning and validation
+* [ ] Complete and validate the full dataset
 * [ ] Data Warehouse / Data Model
 * [ ] Exploratory Analysis
 * [ ] Power BI Dashboard
 * [ ] Final Business Report
 
+The completed work is retained as a learning exercise in practical data cleaning and analytical decision-making. No final business insights or conclusions are claimed from this project.
+
 ## 👤 About
 
-This project is part of my learning journey toward becoming a **Data Analyst**, with a particular interest in using data to understand business problems and support better decisions.
+This project was part of my learning journey toward becoming a **Data Analyst**, with a focus on understanding data quality, making defensible analytical decisions, and using data to support business decisions.
 
+One of the key lessons from this project is that a successful analysis does not start with a dashboard or a set of charts. It starts with understanding the data, evaluating its reliability, and deciding whether it is suitable for the questions we want to answer.
